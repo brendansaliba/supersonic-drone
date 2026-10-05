@@ -1,6 +1,6 @@
 %PERFORMANCE Generate first-cut propulsion and drag maps.
 % This script is the top-level entry point for sweeping engines and a
-% placeholder vehicle over Mach number and altitude.
+% vehicle over Mach number and altitude.
 
 clear; clc;
 format shortG; format compact;
@@ -25,7 +25,7 @@ machGrid = linspace(0, 1.1, 60);
 altitudeGrid_m = linspace(0, 10000, 25);
 
 results = evaluateEnginePerformance(engines, machGrid, altitudeGrid_m);
-vehicles = definePlaceholderVehicle(engines);
+vehicles = defineVehicle(engines);
 dragResults = evaluateVehicleDrag(vehicles, machGrid, altitudeGrid_m);
 
 dataDir = fullfile(projectRoot, "data");
