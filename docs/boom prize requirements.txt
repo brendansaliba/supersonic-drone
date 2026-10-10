@@ -1,0 +1,9 @@
+boom prize requirements
+-airbreathing propulsion only. no onboard oxidizer and no rocket propulsion
+-no jettisoning any parts
+-sustain true airspeed > mach 1.0 + error for > 5 seconds in level or climbing flight
+-maximum takeoff weight < 25 kg
+-must takeoff and land under own power
+-must perform two flights in one day with refuel and minor repairs allowed only. the same airframe, flight computer, and engine must refly
+-continuously human remote piloted abort authority 
+-verify with calibrated pitot-static + total air temperature or GPS telemetry + inferred local conditions
